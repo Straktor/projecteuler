@@ -3,8 +3,9 @@
 # My implementation of Sieve of Eratosthenes algoritm
 factor = [2]
 n = 3
+sum = 2 # 1 is not a prime number
 
-while factor.size < 10001
+while n < 2000000
 	skip = false
 	limit = Math.sqrt(n).ceil
 
@@ -19,8 +20,9 @@ while factor.size < 10001
 
 	if !skip
 		factor.push(n)
+		sum += n
 	end
 	n += 1
 end
 
-puts factor[factor.size-1]
+puts sum

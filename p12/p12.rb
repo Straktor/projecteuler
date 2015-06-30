@@ -38,5 +38,5 @@ while notFound
 	i += 1
 end
 
-puts triNumberSum
+puts triangleNumberValue
 

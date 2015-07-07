@@ -20,9 +20,13 @@ Steps to update the website
 
 ```
 git checkout gh-pages
+```
 
+```
 git merge master
+```
 
+```
 ruby updateSite.rb
 ```
 

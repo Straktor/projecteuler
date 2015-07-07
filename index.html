@@ -4,15 +4,11 @@ layout: default
 
 <div class="home">
 
-  <ul class="post-list">
-	  {% assign sorted_posts = (site.posts | sort: 'index') %}
-	  {% for post in sorted_posts %}
-      <li>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+	{% assign sorted_posts = (site.posts | sort: 'index') %}
+	{% for post in sorted_posts %}
+	<h2>
+		<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+	</h2>
+	{% endfor %}
 
 </div>

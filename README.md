@@ -6,7 +6,7 @@ permalink: /about/
 
 # Project Euler
 
-My personal attemp at Project Euler's problems
+My personal attemp at [Project Euler's](https://projecteuler.net/) problems
 
 ## [Website](http://straktor.github.io/projecteuler/)
 
